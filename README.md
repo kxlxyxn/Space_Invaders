@@ -5,6 +5,4 @@ I created this game to implement the Euclidean distance formula.
 The game deploys collision detection to check for real-time XYR intersections of circular projectiles and a circle-based enemy.
 
 Controls:
-A - move left.
-S - shoot.
-D - move right.
+A: Move Left; S: Shoot; D: Move Right.
