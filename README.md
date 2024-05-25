@@ -1,4 +1,6 @@
-A 'Space Invaders' clone built in Vanilla JS. 
+A 'Space Invaders' clone built in Vanilla JS, using the Canvas API.
+
+Play @ https://kxlxyxn.github.io/space_invader/
 
 I created this game to implement the Euclidean distance formula. 
 ![image](https://github.com/kxlxyxn/space_invader/assets/73526204/afb82cb8-fc5a-4d1f-9cec-abb0ad143292)
