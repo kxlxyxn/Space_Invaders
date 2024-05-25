@@ -38,7 +38,7 @@ class Game {
     this.drawSpaceship();
     this.drawProjectiles();
     this.drawEnemyCircles();
-    this.drawScore();
+    this.drawScoreAndLives();
   };
 
   drawCanvas = () => {
@@ -70,13 +70,13 @@ class Game {
     this.checkIfGameOver();
   };
 
-  drawScore = () => {
+  drawScoreAndLives = () => {
     this.ctx.font = "bold 24px verdana, sans-serif";
-    let scoreBoard = `Score: ${this.currentScore} | Lives: ${this.livesRemaining}`;
+    let userInfo = `Score: ${this.currentScore} | Lives: ${this.livesRemaining}`;
     this.ctx.textAlign = "start";
     this.ctx.textBaseline = "bottom";
     this.ctx.fillStyle = "white";
-    this.ctx.fillText(scoreBoard, 10, 50);
+    this.ctx.fillText(userInfo, 10, 50);
   };
 
   update = () => {
